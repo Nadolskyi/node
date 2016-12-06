@@ -1,7 +1,6 @@
 {
-  "name": "server.js",
+  "name": "express",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "eslint": "^3.11.1"
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/Nadolskyi/node/issues"
   },
-  "homepage": "https://github.com/Nadolskyi/node#readme"
+  "homepage": "https://github.com/Nadolskyi/node#readme",
+  "description": ""
 }
