@@ -5,9 +5,7 @@ app.get('/', function (req, res, next) {
 
    res.sendfile('./forExpress/index.html', function(err) {
     if (err) {
-        next(err);
-    } else {
-        console.log('transferred %s', path);
+        console.log('pomylka');
     }
 });
 
