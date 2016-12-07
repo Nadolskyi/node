@@ -6,7 +6,7 @@ html
         div
             each val in myData
                 mixin team(id, firstName, lastName, description)
-                    li(style="background:#eee") #{val.id} : #{val.firstName} #{val.lastName} 
+                    p(style="background:#eee") #{val.id} : #{val.firstName} #{val.lastName} 
                 ul#team
                    +team{};
         div
