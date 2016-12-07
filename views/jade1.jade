@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title Jade for DBase
+    body
+        div
+            each val in myData
+                mixin team(id, firstName, lastName, description)
+                    li(style="background:#eee") #{val.id} : #{val.firstName} #{val.lastName} 
+                ul#team
+                   +team{};
+        div
+            each val in myData
+                p= ' ' +val.id+' : '+ val.firstName+ ' ' + val.lastName
+                    
+                    
+  

@@ -1,13 +1,16 @@
 var express = require('express');
 var app = express();
+var fs = require ('fs');
 
-app.get('/', function (req, res, next) {
+app.set('view engine', 'jade');
 
-   res.sendfile('./forExpress/index.html', function(err) {
-    if (err) {
-        console.log('pomylka');
-    }
+app.get('/', function (req, res) {
+
+fs.readFile ('db.js', function(err, content){
+    if (err) { console.log('eror');
+        } else {
+            var par = JSON.parse(content);
+            res.render('jade1', {myData: par});
+        }
 });
-
 }).listen(process.env.PORT);
-console.log('Server has started!');

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
-    "eslint": "^3.11.1"
+    "eslint": "^3.11.1",
+    "jade": "^1.11.0"
   },
   "devDependencies": {},
   "scripts": {
