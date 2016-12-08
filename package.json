@@ -2,20 +2,30 @@
   "name": "workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "db.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "ejs": "^2.5.5",
-    "body-parser": "^1.15.2",
-    "mongodb": "^2.2.12",
-    "express": "^4.14.0",
+    "jade": "^1.11.0",
     "nodemon": "^1.11.0",
     "pug": "^2.0.0-beta6",
-    "jade": "^1.11.0"
+    "mongodb": "^2.2.12",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "connect": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-myth": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
