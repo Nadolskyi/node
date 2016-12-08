@@ -1,16 +1,15 @@
 {
   "name": "workspace",
   "version": "1.0.0",
-  "description": "",
   "main": "db.js",
   "dependencies": {
-    "ejs": "^2.5.5",
     "body-parser": "^1.15.2",
-    "mongodb": "^2.2.12",
+    "ejs": "^2.5.5",
     "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.12",
     "nodemon": "^1.11.0",
-    "pug": "^2.0.0-beta6",
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {},
   "scripts": {
@@ -26,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/Nadolskyi/node/issues"
   },
-  "homepage": "https://github.com/Nadolskyi/node#readme"
+  "homepage": "https://github.com/Nadolskyi/node#readme",
+  "description": ""
 }
